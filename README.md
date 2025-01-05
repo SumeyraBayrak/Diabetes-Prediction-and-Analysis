@@ -1,7 +1,7 @@
 # Diabetes Prediction Using KNN Classifier
 
 ## Project Overview
-This project implements a machine learning model that predicts the likelihood of diabetes in patients using the **Pima Indians Diabetes Dataset** on Kaggle . The model leverages the **KNeighborsClassifier** algorithm to classify whether a patient has diabetes or not based on medical measurements and personal health data. The goal of this project is to demonstrate the application of KNN for classification tasks and showcase the ability to predict diabetes based on diagnostic data.
+This project implements a machine learning model that predicts the likelihood of diabetes in patients using the **[Pima Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)** on Kaggle . The model leverages the **KNeighborsClassifier** algorithm to classify whether a patient has diabetes or not based on medical measurements and personal health data. The goal of this project is to demonstrate the application of KNN for classification tasks and showcase the ability to predict diabetes based on diagnostic data.
 
 ---
 
@@ -28,8 +28,7 @@ The dataset consists of 8 predictor variables and 1 target variable (`Outcome`),
 | 9         | **Outcome**                   | Target variable (0 or 1). Classifies whether the patient has diabetes (1) or not (0). |
 
 ---
-**[Pima Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)**
-https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+
 ## Acknowledgements
 
 Thanks to **[GeeksforGeeks](https://www.geeksforgeeks.org/videos/diabetes-prediction-in-machine-learning/)** for the helpful tutorial on diabetes prediction using machine learning. It played a key role in the development of this project.
