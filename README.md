@@ -15,53 +15,16 @@ The dataset consists of 8 predictor variables and 1 target variable (`Outcome`),
 
 ## Features
 
-| **Feature**                  | **Description**                                                                 |
-|------------------------------|---------------------------------------------------------------------------------|
-| **Pregnancies**               | The number of times a patient has been pregnant.                                |
-| **Glucose**                   | Plasma glucose concentration measured 2 hours after an oral glucose tolerance test. |
-| **BloodPressure**             | Diastolic blood pressure (measured in mm Hg).                                   |
-| **SkinThickness**             | Triceps skin fold thickness (measured in mm).                                  |
-| **Insulin**                   | 2-hour serum insulin concentration (measured in µU/ml).                        |
-| **BMI**                       | Body Mass Index (calculated as weight in kg divided by height in meters squared). |
-| **DiabetesPedigreeFunction**  | A function representing the family history of diabetes (genetic risk).          |
-| **Age**                       | Age of the patient in years.                                                   |
-| **Outcome**                   | Target variable (0 or 1). Classifies whether the patient has diabetes (1) or not (0). |
+| **Index** | **Feature**                  | **Description**                                                                 |
+|:---------:|:-----------------------------|:-------------------------------------------------------------------------------|
+| 1         | **Pregnancies**               | The number of times a patient has been pregnant.                                |
+| 2         | **Glucose**                   | Plasma glucose concentration measured 2 hours after an oral glucose tolerance test. |
+| 3         | **BloodPressure**             | Diastolic blood pressure (measured in mm Hg).                                   |
+| 4         | **SkinThickness**             | Triceps skin fold thickness (measured in mm).                                  |
+| 5         | **Insulin**                   | Hour serum insulin concentration (measured in µU/ml).                        |
+| 6         | **BMI**                       | Body Mass Index (calculated as weight in kg divided by height in meters squared). |
+| 7         | **DiabetesPedigreeFunction**  | A function representing the family history of diabetes (genetic risk).          |
+| 8         | **Age**                       | Age of the patient in years.                                                   |
+| 9         | **Outcome**                   | Target variable (0 or 1). Classifies whether the patient has diabetes (1) or not (0). |
 
 ---
-
-### Additional Notes:
-- **BMI (Body Mass Index)**: A key indicator of body fat, calculated using the formula:  
-  `BMI = weight(kg) / height(m)²`
-  
-- **DiabetesPedigreeFunction**: This value represents the genetic predisposition to diabetes, where a higher value indicates a stronger family history of diabetes.
-
----
-
-This layout helps in clearly distinguishing the features and their descriptions, making the information easier to digest and more visually appealing.
-
-
-## Installation
-Follow these steps to set up the project locally:
-
-### Prerequisites:
-- Python 3.x
-- pip (Python package installer)
-
-### Required Libraries:
-You can install the required Python libraries using pip:
-
-
-
-## Features
-
-| **Feature**                  | **Description**                                                                 |
-|:-----------------------------|:-------------------------------------------------------------------------------|
-| **Pregnancies**               | The number of times a patient has been pregnant.                                |
-| **Glucose**                   | Plasma glucose concentration measured 2 hours after an oral glucose tolerance test. |
-| **BloodPressure**             | Diastolic blood pressure (measured in mm Hg).                                   |
-| **SkinThickness**             | Triceps skin fold thickness (measured in mm).                                  |
-| **Insulin**                   | 2-hour serum insulin concentration (measured in µU/ml).                        |
-| **BMI**                       | Body Mass Index (calculated as weight in kg divided by height in meters squared). |
-| **DiabetesPedigreeFunction**  | A function representing the family history of diabetes (genetic risk).          |
-| **Age**                       | Age of the patient in years.                                                   |
-| **Outcome**                   | Target variable (0 or 1). Classifies whether the patient has diabetes (1) or not (0). |
